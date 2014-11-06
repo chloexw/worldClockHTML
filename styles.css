@@ -1,0 +1,234 @@
+#worldClock {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeue-Light", Arial;
+}
+#worldClock #header {
+  background-color: #efefef;
+  height: 64px;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+#worldClock #header #h {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+#worldClock #list {
+  margin-top: 65px;
+}
+#worldClock .timeCity {
+  height: 70px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffffff;
+  width: 100%;
+}
+#worldClock .timeCity span:first-child {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  float: left;
+}
+#worldClock .timeCity span:nth-child(2) {
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 25px;
+}
+#worldClock .timeCity div {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+#timer {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeue-Light", Arial;
+}
+#timer #header {
+  background-color: #efefef;
+  height: 64px;
+  border-bottom: 1px solid #ccc;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+#timer #header #h {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+#timer #part1 {
+  height: 160px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
+  top: 65px;
+}
+#timer #part1 input[type="number"] {
+  font-size: 90px;
+  padding-top: 20px;
+  width: 135;
+}
+#timer #part1 input:first-child {
+  float: left;
+  margin-left: 10%;
+}
+#timer #part1 input:last-child {
+  float: right;
+  margin-right: 10%;
+}
+#timer #part2 {
+  position: fixed;
+  width: 100%;
+  top: 226;
+  background-color: #efefef;
+  height: 100%;
+}
+#timer #part2 .button {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  font-size: 15px;
+  border: 1px solid gray;
+  color: gray;
+  background-color: white;
+}
+#timer #part2 #start {
+  float: left;
+  padding-left: 20%;
+  margin-top: 20px;
+}
+#timer #part2 #pause {
+  float: right;
+  padding-right: 20%;
+  margin-top: 20px;
+}
+#timer #part2 #b1 {
+  border: 1px solid green;
+  color: green;
+}
+#stopwatch {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeue-Light", Arial;
+}
+#stopwatch #header {
+  background-color: #efefef;
+  height: 64px;
+  border-bottom: 1px solid #ccc;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+#stopwatch #header #h {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+#stopwatch #time {
+  height: 160px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
+  top: 65px;
+}
+#stopwatch #time div:first-child {
+  font-size: 18px;
+  color: #ccc;
+  padding-top: 10px;
+  padding-right: 10px;
+  float: right;
+}
+#stopwatch #time div:last-child {
+  font-size: 70px;
+  text-align: center;
+  padding-top: 45px;
+  font-family: 'HelveticaNeue-UltraLight';
+}
+#stopwatch #button {
+  height: 130px;
+  position: fixed;
+  width: 100%;
+  top: 226;
+  background-color: #efefef;
+  border-bottom: 1px solid #ccc;
+}
+#stopwatch #button .button {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  font-size: 15px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+#stopwatch #button #b1 {
+  border: 1px solid red;
+  color: red;
+}
+#stopwatch #button #stop {
+  float: left;
+  padding-left: 20%;
+  margin-top: 20px;
+}
+#stopwatch #button #lap {
+  float: right;
+  padding-right: 20%;
+  margin-top: 20px;
+}
+#stopwatch #list {
+  margin-top: 356px;
+  background-color: #efefef;
+  height: 100%;
+}
+#stopwatch .laptime {
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  background-color: #efefef;
+  width: 100%;
+}
+#stopwatch .laptime #lpid {
+  font-size: 18px;
+  color: #555;
+  padding-left: 10px;
+  padding-top: 10px;
+  float: left;
+}
+#stopwatch .laptime #timeid {
+  float: right;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-right: 20%;
+}
+footer {
+  height: 44px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  background-color: #efefef;
+  position: fixed;
+  bottom: 0;
+}
+footer div {
+  text-align: center;
+  float: left;
+  position: relative;
+  width: 26.67%;
+  margin-left: 5%;
+  font-size: 12px;
+  color: #aaa;
+}
+footer div a {
+  font-size: 20px;
+  color: #aaa;
+  text-decoration: none;
+}
